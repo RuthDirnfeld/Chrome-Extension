@@ -1,0 +1,38 @@
+{
+  "name": "live-test-plugin",
+  "version": "1.0.0",
+  "description": "Chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli & jest",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u-pi/live-test-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u-pi/live-test-plugin/issues"
+  },
+  "homepage": "https://github.com/u-pi/live-test-plugin#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "canvas": "^2.6.1",
+    "jest": "^24.9.0",
+    "jsdom": "^15.2.1",
+    "safe-string-literal": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-extension-reloader": "^1.1.4"
+  }
+}
